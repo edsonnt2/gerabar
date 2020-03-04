@@ -1,0 +1,157 @@
+/*ESTILO CONTAS CLIENTES*/
+
+#d_cadastro_nova_conta{ float:left; margin-left:1%; width:98%;}
+
+#cont_tudo_nova_conta{ float:left; margin:35px 0 20px 0; min-height:400px; width:49%; border-right:1px dashed #999;}
+#cont_tudo_nova_conta span{ display:block; margin-bottom:8px;}
+#cont_tudo_nova_conta span label{ font:bold 13px Arial, Helvetica, sans-serif; text-transform:uppercase; color:#393939; cursor:pointer;}
+#cont_busca_nova_conta{ float:left; position:relative;}
+#ul_mostra_cliente{ background:#fff; float:left; border:1px solid #aaaaab; border-top:0; width:411px; position:absolute; top:36px; z-index:111; overflow:auto; max-height:372px; list-style:none; display:none;}
+	#ul_mostra_cliente li{ display: block; border-bottom:1px solid #aaaaab;}
+	#ul_mostra_cliente li:last-child{ border:0;}
+	#ul_mostra_cliente li span{ display:inline-block; padding:2px 12px; margin:6px 0; font:13px Arial, Helvetica, sans-serif; width:280px;}
+	#ul_mostra_cliente li span.s_border_conta{ border-left:1px solid #aaaaab; width: inherit;}
+	#ul_mostra_cliente li a{ display:block; text-decoration:none; color:#111;}
+	
+	#ul_mostra_cliente li#ativo_conta_nome a{  color:#fff; text-shadow:1px 1px 1px #474747; background:#6c7079;}
+	#ul_mostra_cliente li#ativo_conta_nome a span.s_border_conta{ border-color:#fff;}
+	
+	#ul_mostra_cliente li.nadaCliente span{ font:bold 13px/22px Arial, Helvetica, sans-serif; color:#333; text-shadow:0 1px 0 #e4e4e4; text-align:center; float:left; width:100%; text-transform:uppercase; padding:0; margin:20px 0;}
+	#ul_mostra_cliente li.nadaCliente a{ display: inline-block; color:#244DC7; background:none; text-shadow:none;}
+	#ul_mostra_cliente li.nadaCliente a:hover{ color:#244DC7; text-decoration:underline;}
+
+	#h_cad_cliente{ font:bold 22px/34px Arial, Helvetica, sans-serif; color:#333; float:left; width:48.5%; text-align:center; margin:45px 0 0 1.5%;}
+		#h_cad_cliente a{ text-decoration:none; color:#244dc7;}
+		#h_cad_cliente a:hover{ text-decoration:underline;}
+
+#div_busca_conta{ float:left; position:relative; margin:10px 0 0 60px;}
+	#i_busca_conta{ position: absolute; top:0; left:0; width:420px; height:30px; padding:0 6px; border:1px solid #888; background:#fff; border-right:0; text-transform:uppercase; font:13px/28px Arial, Helvetica, sans-serif; color:#333;}
+	#i_envia_busca_conta{ position:absolute; background:#d3d3d3 url(../_img/lupa-del.png) center no-repeat; top:0; left:420px; height:30px; width:30px; border:1px solid #888; cursor:pointer;}
+	#i_envia_busca_conta:hover{ background-color:#c9c9c9;}
+
+#div_info_credito{ float:left; width:100%; margin-top:25px;}
+	#div_info_credito span{ float:left; border-right:1px solid #888; padding:4px 0; font:bold 13px Arial, Helvetica, sans-serif; text-transform:uppercase; color:#333; text-align:center;}
+
+#d_mostrar_contas { min-height: 485px; float: left; width: 98%; margin-left: 1%;}
+#ul_lista_contas{ float:left; list-style:none; width:99.8%; border:1px solid #888; margin-bottom:20px;}
+	#ul_lista_contas li{ width:100%; border-bottom:1px solid #888; float:left; position:relative;}
+	#ul_lista_contas li:last-child{ border:0;}
+	#ul_lista_contas li:hover{ background:#f1f2f9;}
+		.separa_conta_0,.separa_conta_1,.separa_conta_2,.separa_conta_3,.separa_conta_4{ float:left; border-left:1px solid #888; margin:6px 0; height:34px; text-align:center; font:13px/34px Arial, Helvetica, sans-serif; color:#333;}		
+		.separa_conta_3 span.s_emdia{ color:#060;}
+		.separa_conta_3 span.s_atrasado{ color: #C30;}
+		
+		.separa_conta_4 span{ float:left; margin-left:22px; margin-top:6px;}
+		.separa_conta_4 span.s_acrescenta_conta a{ display:block; height:24px; width:27px; background:url(../_img/ico-edita.png) no-repeat;}
+		.separa_conta_4 span.s_fecha_conta a{ display:block; height:25px; width:25px; background:url(../_img/ico-pagaconta.png) no-repeat;}
+		.separa_conta_4 span.s_acrescenta_conta a:hover{ background-position:0 -25px;}
+		.separa_conta_4 span.s_fecha_conta a:hover{ background-position:0 -26px;}
+		
+		.s_conta_abreFecha_respansivo{ display:none;}
+		
+		
+		#so_contas,.so_produtos{ display:none;}
+		#codigo_credito{ width:93px;}	
+		#div_info_credito span#acao_credito{ width:78px; border:0; text-align:right;}
+		
+		.separa_conta_0{ border:0; width:92px;}
+		#nome_credito,.separa_conta_1{width:385px;}
+		#val_credito,.separa_conta_2{ width:160px;}
+		#status_credito,.separa_conta_3{ width:146px;}
+		.separa_conta_4{ padding-left:4px;}
+	
+#d_cadastro_produto{ float:left; min-height:500px; position:relative; width: 98%; margin-left: 1%;}
+		#d_cadastro_produto h2.h_topo_lista_conta{ float:left; border-bottom:1px solid #888; width:100%; margin:20px 0 10px 0;}
+			#dentro-h2,#dentro2-h2{ float:left; background:#fff; text-transform:uppercase; padding:0 5px; font:bold 14px Arial, Helvetica, sans-serif; color:#444; text-shadow:0 1px 0 #eee; margin:0 0 -9px 15px;}
+			#dentro2-h2{ float:right; margin:0 15px -9px 0;}
+			#dentro2-h2 a{ text-decoration:none; color:#2B73C4;}
+			#dentro2-h2 a:hover{ text-decoration:underline;}
+			#liClienteConta{ display:none;}
+	
+	.d_top_contas{ float:left; margin:15px 0 0 0; border-bottom:1px solid #888; padding-bottom:3px; width:100%;}
+		.d_top_contas span{ float:left; border-right:1px solid #888; padding:2px 0; font:bold 12px Arial, Helvetica, sans-serif; color:#333; text-transform:uppercase; text-align:center;}
+		
+		.s_produto_contas,.d_produto_contas{ width:290px;}
+		.s_func_contas,.d_func_contas{ width:70px;}
+		.s_val_contas,.d_val_contas{ width:125px;}
+		.s_quant_contas,.d_quant_contas{ width:70px;}		
+		.s_valtotal_contas,.d_valtotal_contas{ width:127px;}
+		.s_data_contas,.d_data_contas{ width:130px;}
+		.s_acao_contas,.d_acao_contas{width:55px; border:0 !important; padding-right:0 !important;}
+		.d_lancar_contas{ width:180px; border:0 !important;}
+
+	.u_lista_conta{ float:left; list-style:none; width:100%;}
+	.u_lista_conta li{ float:left; border-bottom:1px solid #888; width:100%; position:relative;}
+	
+	.d_produto_contas,.d_func_contas,.d_val_contas,.d_quant_contas,.d_valtotal_contas,.d_data_contas,.d_acao_contas,.d_tds_conta{ float:left; border-right:1px solid #888; text-align:center; padding:2px 0; margin:3px 0; height:30px; font:13px/28px Arial, Helvetica, sans-serif; color:#333;}
+	.u_lista_conta li.li-inner:hover{ background:#f1f2f9;}
+				#i_nome_prod_contas{ margin-top:2px; border:1px solid #555; padding:0 5px; font:12px Arial, Helvetica, sans-serif; height:24px; width:270px; box-shadow:inset 0px 0px 2px #aaa; color:#222;}
+				#s_mostraCampo{ display:none;}
+				.mostraDisverso{ display:block !important;}
+				#rs_val{ text-transform:uppercase;}
+				#s_rs_diverso{ border:1px solid #555; background:#7a7c85; font:12px/24px Arial, Helvetica, sans-serif; text-transform:uppercase; color:#fff; text-shadow:1px 1px 1px #111; float:left; padding:0 3px; height:24px; border-right:0; margin:2px 0 0 10px;}
+				#i_val_diverso{ float:left; border:1px solid #555; height:24px; font:12px Arial, Helvetica, sans-serif; width:80px; color:#222; box-shadow:inset 0px 0px 2px #aaa; text-align:center; margin-top:2px;}
+				#novaQuantProd,#i_cod_func{ width:60px; font:13px Arial, Helvetica, sans-serif; height:24px; text-align:center; border:1px solid #555; margin-top:2px; box-shadow:inset 0px 0px 2px #aaa;}
+				#lanca_prd_conta{ margin-top:1px; font:bold 12px/24px Arial, Helvetica, sans-serif; height:27px; cursor:pointer; text-transform:uppercase; background:#3070b0; color:#f7f7f7; text-shadow:1px 1px 1px #3b3b3b; border:1px solid #2E4E8E; padding:0 9px;}
+				#lanca_prd_conta:hover{background:#159; color:#fff;}			
+			
+			.somaValor_conta{ padding-top:15px; float:left; border:0; font:bold 22px Arial, Helvetica, sans-serif; color:#555; text-shadow:1px 1px 1px #dfdfdf; text-transform:uppercase; width:99%; text-align:right;}
+			
+			.s_paga_conta,.s_delete_conta{ float:left; margin:4px 0 0 8px;}
+			.s_paga_conta a.addImgPagar{ background:url(../_img/ico-pagamento.png) no-repeat; width:21px; display:block; height:20px;}
+			.s_delete_conta a.addImgDel{ background:url(../_img/delete.png) no-repeat; width:14px; display:block; height:19px;}
+			.s_paga_conta a.addImgPagar:hover{ background-position:0 -21px;}
+			.s_delete_conta a.addImgDel:hover{ background-position:0 -20px;}
+			
+			.d_produto_contas{ position:relative;}
+			ul#submenu_prod_conta{ margin:0; left:4px; top:30px; padding:0; width:280px; position:absolute; border:1px solid #555; border-top:0; background:#fff; z-index: 111; overflow: auto; max-height: 220px; display:none;}
+			ul#submenu_prod_conta li{ width:100%; display:block; margin:0; padding:0; border:0; border-bottom:1px solid #555; cursor:pointer;}
+			ul#submenu_prod_conta li:last-child{ border:0;}
+			ul#submenu_prod_conta li span{ float:left; margin-left:7px; font-size:12px;}
+			
+			ul#submenu_prod_conta li.conta_ativo{ background:#6c7079; color:#fff; text-shadow:0 1px 0 #474747;}
+			
+			.carrega_busca{ height:32px; background:url(../_img/ico-loading.gif) center no-repeat; cursor:default !important;}
+		
+			#linkVoltar,#pagarContaTotal,.descontaConta{ float:left; border:1px solid #777; border-radius:3px; height:36px; overflow:hidden; margin:12px 0 0 20px;}
+				#linkVoltar a,#pagarContaTotal a,.descontaConta a{ display:block; padding:0 14px; float:left; text-decoration:none; text-transform:uppercase; font:bold 14px/36px Arial, Helvetica, sans-serif; color:#666; text-shadow:1px 0 1px #fff; background:#ececec;}
+				#linkVoltar a:hover,.descontaConta a:hover{ background:#e4e4e4;}
+				.descontaConta{ margin-bottom:40px;}
+			#pagarContaTotal{ border:1px solid #007722;}
+			#pagarContaTotal a{ color:#FFF; text-shadow:1px 0 1px #007722; background:#22cc66;}
+			#pagarContaTotal a:hover{ background:#22c266;}
+			
+/*PARTE STYLE COMANDAS DE MESA*/
+
+#cont-sel-mesas{ float:left; width:98%; margin:10px 0 50px 1%;}
+	.selMesaCaixa{ display:none;}
+	
+		#s_openNext_mesa,#s_abrir_new_mesa,#envia-mesa{ float:left; margin:20px 10px;}
+			#s_openNext_mesa a,#s_abrir_new_mesa a,#envia-mesa a{ float:left; text-decoration:none; font:bold 16px/40px Arial, Helvetica, sans-serif; text-transform:uppercase; color:#555; text-shadow:1px 1px 1px #fff; border:1px solid #888; background:#ececec; padding:0 12px; height:40px; border-radius:3px;}
+			#s_openNext_mesa a:hover,#s_abrir_new_mesa a:hover{ background:#e3e3e3;}
+			#envia-mesa a{border:1px solid #0f2f6f; color:#eee; text-shadow:1px 1px 1px #222 !important; background:#1f5f9f;}
+			#envia-mesa a:hover{background:#159; color:#f5f5f5;}
+
+		.list-mesas-ul{ list-style:none; float:left; margin:15px 0 0 0; width:100%;}
+			.list-mesas-ul li{ float:left; border:1px solid #009737; margin:5px 0px 5px 10px;}
+				.list-mesas-ul li a{ float:left; height:65px; padding:0 16px; font:bold 16px/65px Arial, Helvetica, sans-serif; text-transform:uppercase; color:#009835; text-decoration:none; background:#F0FEED;}
+				.list-mesas-ul li a:hover{ background: #C8FCBC;}
+				
+				.list-mesas-ul li.openMesa{ border-color:#F44F37;}
+				.list-mesas-ul li.openMesa a{background:#F4d9bb; color:#f41f07;}
+				.list-mesas-ul li.openMesa a:hover{ background: #F1CFA9;}
+				
+	.styleVolMesa{ float: left; margin-left:4px; margin-top:15px; text-transform:uppercase; font:bold 14px/34px Arial, Helvetica, sans-serif; border:1px solid #777; padding:0 14px; height:34px; border-radius:3px; background:#ececec; color:#666; text-shadow:1px 1px 1px #fff; text-decoration:none;}
+.styleVolMesa:hover{ background:#e4e4e4;}
+
+	/*PARTE DE CADASTRO DE MESA*/
+	.d-alinha-mesa{ float:left; width: 100%; margin:20px 0;}
+	.d-alinha-mesa p{ float:left; font: bold 16px/35px Arial, Helvetica, sans-serif; height:35px; color:#555; text-transform:uppercase; margin:0px 8px 0 10px;}
+	#d-cx-quant{ float:left; background:#FFF; width:60px; border:1px solid #666; height:35px;}
+		#i-quant-mesa{ float:left; border:0; background:#fff; padding:0 2px; width:38px; height:35px; text-align:center; font:16px/35px Arial, Helvetica, sans-serif; text-transform:uppercase; color:#222;}
+		#d-cx-quant span{ float:left; width:16px; height:16px; border:1px solid #666; background:#f5f5f5;}
+		#d-cx-quant span a{ float:left; width:16px; height:16px;}
+		#d-cx-quant span:hover{ background:#eee;}
+		#d-cx-quant span#s-mais-mesa{ border-top:0;}
+		#s-mais-mesa a{ background:url(../_img/bt-mais.png) center no-repeat;}
+		#s-menos-mesa a{ background:url( ../_img/bt-menos.png) center no-repeat;}

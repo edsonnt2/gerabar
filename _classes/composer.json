@@ -1,0 +1,7 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.0",
+        "pagseguro/pagseguro-php-sdk": "^5.0",
+        "carloswgama/php-pagseguro": "^3.0"
+    }
+}

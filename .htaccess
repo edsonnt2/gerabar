@@ -1,0 +1,6 @@
+ErrorDocument 400 http://localhost/myforadmin/erro_404.php
+ErrorDocument 401 erro_404.php
+ErrorDocument 403 http://localhost/myforadmin/erro_404.php
+ErrorDocument 404 http://localhost/myforadmin/erro_404.php
+ErrorDocument 500 http://localhost/myforadmin/erro_404.php
+Options All -indexes

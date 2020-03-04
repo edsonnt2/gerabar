@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>http://localhost/myforadmin/</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>http://localhost/myforadmin/ajuda.php</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>http://localhost/myforadmin/contato.php</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>http://localhost/myforadmin/privacidade.php</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>http://localhost/myforadmin/quem_somos.php</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>http://localhost/myforadmin/termos.php</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>http://localhost/myforadmin/caixa.php</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>http://localhost/myforadmin/comanda-bar.php</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>http://localhost/myforadmin/contas-clientes.php</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>  
+  <url>
+    <loc>http://localhost/myforadmin/planos.php</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>
+  <url>
+    <loc>http://localhost/myforadmin/checkout.php</loc>
+    <changefreq>none</changefreq>
+    <priority>None</priority>
+  </url>  
+</urlset>
+<!--<guid value="" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
