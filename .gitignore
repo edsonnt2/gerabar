@@ -1,3 +1,4 @@
 _uploads/_negocios/*
 !_uploads/_negocios/.gitkeep
 geraba01_gerabar.sql
+_classes/vendor
